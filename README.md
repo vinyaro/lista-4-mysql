@@ -18,7 +18,7 @@ Repare que na figura 6 [(visite o site)](http://galileu.coltec.ufmg.br/fantini/h
 
 ## Respostas ao Exercício 2
 
-1. Sim, é possível criar o banco de dados apenas com as tabelas, sem definir os relacionamentos. Ao omitir os relacionamentos, deixamos de lado a criação das Chaves Estrangeiras (`FOREIGN KEY`). O MySQL executará os comandos `CREATE TABLE` que definem as colunas e as Chaves Primárias (`PRIMARY KEY`) sem problemas.
+1. Sim, é possível criar o banco de dados apenas com as tabelas, sem definir os relacionamentos. Ao omitir os relacionamentos, deixamos de lado a criação das Chaves Estrangeiras (`FOREIGN KEY`). O MySQL executará os comandos `CREATE TABLE` que definem as colunas e as Chaves Primárias (`PRIMARY KEY`) sem erros.
 2. Definir o banco apenas com tabelas (sem `FOREIGN KEYs`) é um problema grave na administração de um SGBD (Sistema Gerenciador de Banco de Dados) e traz consequências negativas - exemplifico três delas abaixo. É importante lembrar que o propósito principal de um modelo relacional é garantir a confiabilidade dos dados. Sem Chaves Estrangeiras (`FOREIGN KEYs`), você tem apenas um repositório de dados planos, não um banco de dados relacional íntegro.
 - 2.1 Quebra da Integridade Referencial: Este é o maior impacto. O sistema perde a capacidade de impor regras de relacionamento. Por exemplo, podemos inserir um registro na tabela `Telefone` usando um `EstudanteCpf` que **não existe** na tabela `Estudante`. O banco de dados aceitará esse "CPF órfão", gerando dados inválidos.
 - 2.2 Dificuldade em Consultas (JOINs): Consultas complexas se tornam mais difíceis, pois o SGBD não consegue otimizar as junções e fazendo com que o administrador tenha que confiar cegamente que os dados referenciados estão corretos.
