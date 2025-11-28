@@ -1,7 +1,7 @@
 # ✏️ Lista 4 - Exercícios com MySQL Workbench 8.0 
 
 Este repositório contém uma lista de exercícios do site do [Professor Fantini](http://galileu.coltec.ufmg.br/fantini/hp/CursoBD/Curso/IntroducaoBD.php) vinculado ao Colégio Técnico da Universidade Federal de Minas Gerais (COLTEC/UFMG).
-É excelente para praticar os conceitos de Modelagem Entidade-Relacionamento (DER), DDL (Data Definition Language) e DML (Data Manipulation Language) utilizando o MySQL Workbench 8.0.
+É excelente para praticar os conceitos de Modelagem Entidade-Relacionamento (DER), DDL (Data Definition Language) e DML (Data Manipulation Language). Utilizei como ferramentas o MySQL Workbench 8.0 e DrawSqL (conta grauita).
 
 ---
 
@@ -41,3 +41,11 @@ Melhore o modelo do estudo de caso (Estudante/Disciplina) criando a entidade dep
 - A partir do modelo relacional, crie o banco de dados usando o processo de “Forward Engineer” do MysqlWorkBench
 - Conecte com seu mysql (ou, opcionalmente com o mysql da máquina newton) e crie o banco.
 - Insira dados e faça testes
+
+---
+
+**Observação:** O aplicativo web [DrawSQL](https://drawsql.app/) na conta gratuita é limitado, pois os relacionamentos são restritos em 1:1, 1:N, N:1. Desta forma, quando exportei o arquivo em MySQL e as imagens do modelo DER [Escola](https://github.com/vinyaro/lista-4-mysql/blob/main/drawSQL-image-export-Escola.png) e [Estudante_Disciplina](https://github.com/vinyaro/lista-4-mysql/blob/main/drawSQL-image-export-EstudanteDisciplina.png) tive que refazer algumas partes dos cógidos MySQL. A conta gratuita limita não apenas o relacionamento, como a exportação de chaves compostas.
+
+---
+
+👽BUSQUEM CONHECIMENTO
