@@ -1,7 +1,7 @@
 # ✏️ Lista 4 - Exercícios com MySQL Workbench 8.0 
 
-Esta é uma lista de exercícios do site do [Professor Fantini](http://galileu.coltec.ufmg.br/fantini/hp/CursoBD/Curso/IntroducaoBD.php) vinculado ao Colégio Técnico da Universidade Federal de Minas Gerais (COLTEC/UFMG).
-É excelente para praticar linguagem DDL no MySql Workbench. Além disso a lista possui como pré-requisito o conhecimento em modelagem conceitual de banco de dados e a criação do modelo Lógico/Físico.
+Este repositório contém uma lista de exercícios do site do [Professor Fantini](http://galileu.coltec.ufmg.br/fantini/hp/CursoBD/Curso/IntroducaoBD.php) vinculado ao Colégio Técnico da Universidade Federal de Minas Gerais (COLTEC/UFMG).
+É excelente para praticar os conceitos de Modelagem Entidade-Relacionamento (DER), DDL (Data Definition Language) e DML (Data Manipulation Language) utilizando o MySQL Workbench 8.0.
 
 ---
 
